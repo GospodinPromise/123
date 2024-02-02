@@ -1,0 +1,74 @@
+.hero-section{
+    margin-top: 20px;
+    width: 100%;
+    grid-row: 258px auto;
+    row-gap: 40px;
+}
+
+.hero-section__titul{
+    grid-column: 1 / 8;
+    
+}
+.hero-section__ozon_z{
+    grid-column: 1 / 4;
+    width: 329px;
+    height: 493px;
+    grid-row: 2;
+    justify-self: start;
+    align-self: end;
+    overflow: hidden;
+    background-image: url(../images/small.svg);
+}
+.hero-section__link{
+    grid-column: 11 / 13;
+    font-size: 18px;
+    justify-self: end;
+    align-self: end;
+    text-transform: uppercase;
+    color: black;
+    grid-row: 1;
+}
+.hero-section__titul-header{
+    margin: 0;
+    font-family: "Helvetica Now Display";
+    font-size: 72px;
+    text-align: left;
+    text-transform: uppercase;
+    line-height: 86px;
+}
+
+.hero-section__titul-subtutle{
+    grid-column: 1 / 5;
+    font-size: 20px;
+    line-height: 28px;
+    grid-row:2;
+    margin: 0;
+}
+.hero-section__titul-subtutle-text{
+    margin: 0;
+}
+
+.hero-section__putin{
+    overflow: hidden;
+    grid-column: 7 / 13;
+    grid-row: 2;
+    width:678px;
+    height:809px;
+    background-image: url(../images/big.svg);   
+}
+.hero-section__putin:hover .hero-section__putyaha_z {
+transform: translate(0);
+transition: all 10s ease-out;
+}
+
+.hero-section__putyaha_z{
+    transform: translateY(809px);
+   
+}
+.hero-section__ozon{
+    transform: translateY(493px);
+}
+.hero-section__ozon_z:hover .hero-section__ozon{
+    transform: translate(0);
+    transition: all 7s ease-out;
+}
