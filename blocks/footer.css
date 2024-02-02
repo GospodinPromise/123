@@ -1,0 +1,59 @@
+.footer{
+    margin-top: 120px;
+    width: 100%;
+    display:grid;
+    grid-template-columns: 209px 280px 397px 256px 234px;
+}
+.footer__rights{
+    font-size: 18px;
+    margin: 0;
+    width: 209px;
+    grid-column: 1 / 2;
+    grid-row: 1;
+}
+.footer__rights_year{
+    margin: 0;
+    margin-bottom: 4px;
+}
+.footer__rights_all{
+    margin: 0;
+}
+.footer__rights_politic{
+    text-align: center;
+    grid-column: 3 / 4;
+    align-self: end;
+    margin: 0;
+    text-decoration: 0;
+    border: 0;
+    color: black;
+    
+}
+.footer__socials{
+    grid-column: 5 / 6;
+    font-size: 18px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.footer__text-vk{
+    grid-column: 1;
+    text-transform: uppercase;
+    margin: 0;
+    grid-row: 1;
+    align-self: end;
+    justify-self: start;
+    text-decoration: 0;
+    border: 0;
+    color: black;
+
+}
+.footer__text-tg{
+    text-transform: uppercase;
+    margin: 0;
+    grid-column: 2;
+    grid-row: 1;
+    align-self: end;
+    justify-self: end;
+    text-decoration: 0;
+    border: 0;
+    color: black;
+}
