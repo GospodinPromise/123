@@ -9,16 +9,6 @@
     grid-column: 1 / 8;
     
 }
-.hero-section__ozon_z{
-    grid-column: 1 / 4;
-    width: 329px;
-    height: 493px;
-    grid-row: 2;
-    justify-self: start;
-    align-self: end;
-    overflow: hidden;
-    background-image: url(../images/small.svg);
-}
 .hero-section__link{
     grid-column: 11 / 13;
     font-size: 18px;
@@ -30,7 +20,6 @@
 }
 .hero-section__titul-header{
     margin: 0;
-    font-family: "Helvetica Now Display";
     font-size: 72px;
     text-align: left;
     text-transform: uppercase;
@@ -47,28 +36,12 @@
 .hero-section__titul-subtutle-text{
     margin: 0;
 }
-
-.hero-section__putin{
-    overflow: hidden;
-    grid-column: 7 / 13;
-    grid-row: 2;
-    width:678px;
-    height:809px;
-    background-image: url(../images/big.svg);   
+.hero-section__small{
+    grid-column: 1/4;
+    align-self: end;
 }
-.hero-section__putin:hover .hero-section__putyaha_z {
-transform: translate(0);
-transition: all 10s ease-out;
+.hero-section__big{
+    grid-column: 7/13;
 }
 
-.hero-section__putyaha_z{
-    transform: translateY(809px);
-   
-}
-.hero-section__ozon{
-    transform: translateY(493px);
-}
-.hero-section__ozon_z:hover .hero-section__ozon{
-    transform: translate(0);
-    transition: all 7s ease-out;
-}
+

@@ -15,19 +15,14 @@
     
     margin-top:8px;
     margin-bottom: 8px;
-    font-size: 18px;
-    line-height: 21px;
 }
 
 
-.header__list-feedback{
-    font-size: 18px;
-    line-height: 21px;
-}
 
 .header__list-link{
     text-decoration: none;
     color:black;
+    font-size: 18px;
 }
 
 .header__number{

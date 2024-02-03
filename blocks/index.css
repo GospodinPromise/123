@@ -1,9 +1,9 @@
 @import "body.css";
 @import "header.css";
 @import "hero-section.css";
-@import "section-about.css";
-@import "section-options.css";
-@import "section-projects.css";
-@import "section-reviews.css";
-@import "section-feedback.css";
+@import "about.css";
+@import "options.css";
+@import "projects.css";
+@import "reviews.css";
+@import "feedback.css";
 @import "footer.css";
