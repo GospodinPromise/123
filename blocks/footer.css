@@ -3,6 +3,7 @@
     width: 100%;
     display:grid;
     grid-template-columns: 209px 280px 397px 256px 234px;
+    margin-bottom: 16px;
 }
 .footer__rights{
     font-size: 18px;

@@ -3,7 +3,7 @@
     margin-top: 120px;
     grid-template-rows: 120px 307px 150px;
 }
-.feedback_bedroom{
+.feedback__image{
     grid-column: 1 / 6;
     grid-row: 1 / 3;
 }
@@ -14,7 +14,7 @@
     margin: 0;
     margin-bottom: 32px;
 }
-.feedback-form{
+.feedback__form{
     grid-column: 7 / 12;
     grid-row: 2;
     margin-top: 72px;
