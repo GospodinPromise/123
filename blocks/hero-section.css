@@ -17,6 +17,10 @@
     text-transform: uppercase;
     color: black;
     grid-row: 1;
+    text-decoration: none;
+}
+.hero-section__link:hover{
+    text-decoration: underline;
 }
 .hero-section__titul-header{
     margin: 0;
@@ -43,5 +47,6 @@
 .hero-section__big{
     grid-column: 7/13;
 }
+
 
 

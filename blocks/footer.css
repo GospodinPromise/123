@@ -57,3 +57,7 @@
     border: 0;
     color: black;
 }
+.footer__text{
+    text-decoration: 0;
+    color: black;
+}

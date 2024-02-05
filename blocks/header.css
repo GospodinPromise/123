@@ -24,6 +24,9 @@
     color:black;
     font-size: 18px;
 }
+.header__list-link:hover{
+    text-decoration: underline;
+}
 
 .header__number{
     font-size: 18px;
@@ -33,10 +36,16 @@
     justify-self: end;
     align-self: start;
 }
+.header__number:hover{
+    text-decoration: underline;
+}
 
 .header__image{
     margin: 0;
     grid-column: 1;
     justify-self: start;
     align-self: start;
+}
+.header__list li:not(:last-child) {
+    margin-bottom: 8px;
 }
