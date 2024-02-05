@@ -7,7 +7,6 @@ src: local('Helvetica Now Display Regular'), local('Helvetica-Now-Display-Regula
 }
 
 *{box-sizing: border-box;
-font-family: "Roboto",sans-serif;
 } 
 
 .body{
@@ -15,18 +14,15 @@ font-family: "Roboto",sans-serif;
     margin: 0 auto;
     padding-left:32px;
     padding-right:32px;
+    font-family: "Roboto",sans-serif;
+    font-weight: 400;
+    letter-spacing: 0;
     }
 .grid{
     display: grid;
     grid-template-columns: repeat(12,1fr);
     column-gap: 20px;
 }
-
-p,h1,h2,h3,h4,h5,h6,a{
-    font-weight: 400;
-    letter-spacing: 0;
-}
-
 h2{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 48px;
@@ -34,12 +30,15 @@ h2{
     text-align: left;
     font-weight: 400;
 }
-
 h3{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 36px;
     line-height: 50px;
     text-align: left;
     margin: 0;
+    font-weight: 400;
+}
+h1{
+    font-weight: 400;
 }
 

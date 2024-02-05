@@ -1,64 +1,46 @@
 .footer{
     margin-top: 120px;
     width: 100%;
-    display:grid;
-    grid-template-columns: 209px 280px 397px 256px 234px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
     margin-bottom: 16px;
 }
 .footer__rights{
     font-size: 18px;
     margin: 0;
-    width: 209px;
-    grid-column: 1 / 2;
-    grid-row: 1;
+    max-width: 209px;
 }
-.footer__rights_year{
+.footer__rights-year{
     margin: 0;
     margin-bottom: 4px;
 }
-.footer__rights_all{
+.footer__rights-all{
     margin: 0;
 }
-.footer__rights_politic{
-    text-align: center;
-    grid-column: 3 / 4;
-    align-self: end;
+.footer__legal-docs{
     margin: 0;
-    text-decoration: 0;
-    border: 0;
     color: black;
-    
 }
 .footer__socials{
-    grid-column: 5 / 6;
     font-size: 18px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
 }
-.footer__text-vk{
-    grid-column: 1;
+.footer_social-link{
+    
     text-transform: uppercase;
-    margin: 0;
-    grid-row: 1;
-    align-self: end;
-    justify-self: start;
     text-decoration: 0;
-    border: 0;
-    color: black;
-
+    color: black; 
 }
-.footer__text-tg{
-    text-transform: uppercase;
-    margin: 0;
-    grid-column: 2;
-    grid-row: 1;
-    align-self: end;
-    justify-self: end;
+.footer_social-link + .footer_social-link{
+    margin-left: 40px
+}
+.footer__legal-doc-link{
     text-decoration: 0;
-    border: 0;
     color: black;
 }
-.footer__text{
-    text-decoration: 0;
-    color: black;
+.footer__legal-doc-link:hover{
+    text-decoration: underline;
+}
+.footer_social-link:hover{
+    text-decoration: underline;
 }
