@@ -1,34 +1,27 @@
 
-.header{
+.header {
     width: 100%;
     margin-top:12px;
 }
-    
-.header__list{
+.header__list {
     margin:0;    
     padding: 0;
     grid-column: 9;
     list-style-type:none;
 }
-
-.header__list-project{
-    
+.header__list-project {
     margin-top:8px;
     margin-bottom: 8px;
 }
-
-
-
-.header__list-link{
+.header__list-link {
     text-decoration: none;
     color:black;
     font-size: 18px;
 }
-.header__list-link:hover{
+.header__list-link:hover {
     text-decoration: underline;
 }
-
-.header__number{
+.header__number {
     font-size: 18px;
     color: black;
     text-decoration: none;
@@ -36,11 +29,10 @@
     justify-self: end;
     align-self: start;
 }
-.header__number:hover{
+.header__number:hover {
     text-decoration: underline;
 }
-
-.header__image{
+.header__image {
     margin: 0;
     grid-column: 1;
     justify-self: start;

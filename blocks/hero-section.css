@@ -1,15 +1,14 @@
-.hero-section{
+.hero-section {
     margin-top: 20px;
     width: 100%;
     grid-row: 258px auto;
     row-gap: 40px;
 }
-
-.hero-section__titul{
+.hero-section__titul {
     grid-column: 1 / 8;
     
 }
-.hero-section__link{
+.hero-section__link {
     grid-column: 11 / 13;
     font-size: 18px;
     justify-self: end;
@@ -19,33 +18,32 @@
     grid-row: 1;
     text-decoration: none;
 }
-.hero-section__link:hover{
+.hero-section__link:hover {
     text-decoration: underline;
 }
-.hero-section__titul-header{
+.hero-section__titul-header {
     margin: 0;
     font-size: 72px;
     text-align: left;
     text-transform: uppercase;
     line-height: 86px;
 }
-
-.hero-section__titul-subtutle{
+.hero-section__titul-subtutle {
     grid-column: 1 / 5;
     font-size: 20px;
     line-height: 28px;
     grid-row:2;
     margin: 0;
-}
-.hero-section__titul-subtutle-text{
+} 
+.hero-section__titul-subtutle-text {
     margin: 0;
 }
-.hero-section__small{
-    grid-column: 1/4;
+.hero-section__small {
+    grid-column: 1 / 4;
     align-self: end;
 }
-.hero-section__big{
-    grid-column: 7/13;
+.hero-section__big {
+    grid-column: 7 / 13;
 }
 
 
