@@ -1,4 +1,4 @@
-.footer{
+.footer {
     margin-top: 120px;
     width: 100%;
     display: flex;
@@ -6,41 +6,41 @@
     align-items: end;
     padding-bottom: 16px;
 }
-.footer__rights{
+.footer__rights {
     font-size: 18px;
     margin: 0;
     max-width: 209px;
 }
-.footer__rights-year{
+.footer__rights-year {
     margin: 0;
     margin-bottom: 4px;
 }
-.footer__rights-all{
+.footer__rights-all { 
     margin: 0;
 }
-.footer__legal-docs{
+.footer__legal-docs {
     margin: 0;
     color: black;
 }
-.footer__socials{
+.footer__socials {
     font-size: 18px;
 }
-.footer_social-link{
+.footer_social-link {
     
     text-transform: uppercase;
     text-decoration: 0;
     color: black; 
 }
-.footer_social-link + .footer_social-link{
+.footer_social-link + .footer_social-link {
     margin-left: 40px
 }
-.footer__legal-doc-link{
+.footer__legal-doc-link {
     text-decoration: 0;
     color: black;
 }
-.footer__legal-doc-link:hover{
+.footer__legal-doc-link:hover {
     text-decoration: underline;
 }
-.footer_social-link:hover{
+.footer_social-link:hover {
     text-decoration: underline;
 }
