@@ -13,9 +13,7 @@ src: local('Helvetica Now Display Regular'), local('Helvetica-Now-Display-Regula
     margin: 0 auto;
     padding-left:32px;
     padding-right:32px;
-    font-family: "Roboto",sans-serif;
-    font-weight: 400;
-    letter-spacing: 0;
+    font-family: "Roboto", sans-serif;
     }
 .grid {
     display: grid;

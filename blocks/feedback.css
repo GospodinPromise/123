@@ -4,7 +4,7 @@
     grid-template-rows: 120px 307px 150px;
 }
 .feedback__image {
-    grid-column: 1/6;
+    grid-column: 1 / 6;
 }
 .feedback__application {
     grid-column: 7 / 13;
@@ -51,7 +51,7 @@
 .download-link {
     display: inline-block;
 }
-.feedback__google-play {
+.feedback__download-link {
     margin-left: 8px;
 }
 .feedback__subtitle {

@@ -39,11 +39,11 @@
     margin: 0;
 }
 .hero-section__small {
-    grid-column: 1/4;
+    grid-column: 1 / 4;
     align-self: end;
 }
 .hero-section__big {
-    grid-column: 7/13;
+    grid-column: 7 / 13;
 }
 
 
