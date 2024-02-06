@@ -4,7 +4,6 @@
     grid-row: 258px auto;
     row-gap: 40px;
 }
-
 .hero-section__titul {
     grid-column: 1 / 8;
     
@@ -29,7 +28,6 @@
     text-transform: uppercase;
     line-height: 86px;
 }
-
 .hero-section__titul-subtutle {
     grid-column: 1 / 5;
     font-size: 20px;

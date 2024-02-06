@@ -3,19 +3,16 @@
     width: 100%;
     margin-top:12px;
 }
-    
 .header__list {
     margin:0;    
     padding: 0;
     grid-column: 9;
     list-style-type:none;
 }
-
 .header__list-project {
     margin-top:8px;
     margin-bottom: 8px;
 }
-
 .header__list-link {
     text-decoration: none;
     color:black;
@@ -24,7 +21,6 @@
 .header__list-link:hover {
     text-decoration: underline;
 }
-
 .header__number {
     font-size: 18px;
     color: black;
@@ -36,7 +32,6 @@
 .header__number:hover {
     text-decoration: underline;
 }
-
 .header__image {
     margin: 0;
     grid-column: 1;

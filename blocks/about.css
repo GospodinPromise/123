@@ -2,7 +2,6 @@
     width:100% ;
     margin-top: 120px;
 }
-
 .about__header {
     grid-column: 1 / 6;
     margin: 0;
@@ -13,26 +12,22 @@
     margin: 0;
     padding-top: 29px;
 }
-
 .about__subtitle-text {
     font-size: 16px;
     line-height: 22px;
     text-align: left;
     margin-bottom: 0;
 }
-
 .about__subtitle-time {
     grid-column: 7 / 9;
     margin: 0;
     margin-top: 44px;
 }
-
 .about__subtitle-time-text { 
     margin: 0;
     font-size: 16px;
     
 }
-
 .about__time-text {
     margin-bottom:24px;
     margin-top: 24px;
