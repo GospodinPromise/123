@@ -5,30 +5,45 @@
 .about__header {
     grid-column: 1 / 6;
     margin: 0;
-    
+    padding-top: 29px;
 }
-.about__subtitle { 
+.about__text { 
     grid-column: 7 / 11;
     margin: 0;
     padding-top: 29px;
 }
-.about__subtitle-text {
+.about__text p {
     font-size: 16px;
     line-height: 22px;
     text-align: left;
     margin-bottom: 0;
 }
-.about__subtitle-time {
+.about__feature {
     grid-column: 7 / 9;
     margin: 0;
     margin-top: 44px;
 }
-.about__subtitle-time-text { 
-    margin: 0;
-    font-size: 16px;
-    
-}
 .about__time-text {
     margin-bottom:24px;
     margin-top: 24px;
+    width: 0;
+}
+.about__feature__projects{
+    width: 0;
+}
+.about__feature__class:not(:last-child){
+    margin-bottom: 24px;
+}
+.about__feature__class::first-line{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    line-height: 50px;
+    text-align: left;
+    margin: 0;
+}
+.about__feature__class p {
+    margin:0
+}
+.about__feature--text{
+    width: 0;
 }
