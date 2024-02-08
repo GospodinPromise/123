@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title> Мебель для дома</title>
   <link rel="stylesheet"href="blocks/index.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,8 +15,8 @@
 
     <header class="header grid">
       <a class="header__image" href="#">
-      <img src="images/logo.svg" width="70px" height="74px" alt="Лого">
-    </a>
+      <img class="header__image-logo" src="images/logo.svg" width="70px" height="74px" alt="Лого">
+      </a>
     <ul class="header__list">
       <li> <a href="#" class="header__list-link">О нас</a></li>
       <li> <a href="#" class="header__list-link">Проекты</a></li>
@@ -23,6 +24,7 @@
       <li> <a href="#" class="header__list-link">Отзывы</a></li>
     </ul>
       <a class="header__number" href="tel:79999999999" >+7 999 999 99 99</a>
+      <img class="header__ellipsis" src="images/ellipsis.svg" width="24px" height="12px">
   </header>
 
 <section class="hero-section grid">
@@ -39,10 +41,11 @@
 
 <section class="about grid">
   <h2 class="about__header">Более 5 лет создаем мебель для вашего комфорта</h2>
+  <h2 class="about__header-adaptive">О компании</h2>
   <div class="about__text">
-    <p>Мы — команда профессионалов, которые могут произвести любую мебель для вашего проекта, а также найти производственное решение любой задумки.</p></li>
-    <p>Наша основная цель — реализовывать самые смелые задумки, и делать это качественно и аккуратно.</p></li>
-    <p>В качестве материалов мы используем натуральные — стекло, дерево, бетон, камень, металл и эпоксидную смолу.</p></li>
+    <p>Мы — команда профессионалов, которые могут произвести любую мебель для вашего проекта, а также найти производственное решение любой задумки.</p>
+    <p>Наша основная цель — реализовывать самые смелые задумки, и делать это качественно и аккуратно.</p>
+    <p>В качестве материалов мы используем натуральные — стекло, дерево, бетон, камень, металл и эпоксидную смолу.</p>
   </div>
   <div class="about__feature">
     <div class="about__feature__class">
@@ -189,7 +192,7 @@
       <p class="footer__rights-all"> Все права защищены </p>
     </div>
       <p class="footer__legal-docs">
-      <a class="footer__legal-doc-link" href="#">Политика конфеденциальности</a> / 
+      <a class="footer__legal-doc-link" href="#">Политика конфеденциальности</a> /
       <a class="footer__legal-doc-link" href="#">Оплата и доставка</a>
     </p>
     <div class="footer__socials">

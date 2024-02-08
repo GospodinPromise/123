@@ -58,3 +58,16 @@
     margin: 0;
     margin-bottom: 72px
 }
+
+@media screen and (max-width:480px){
+    .feedback {
+        margin-top: 48px;
+        grid-template-rows: 120px 307px;
+    }
+    .feedback__image {
+        display: none;
+    }
+    .feedback__application {
+        grid-column: 1 / 5;
+    }
+}
