@@ -1,16 +1,19 @@
 .workflow {
     margin-top:120px;
 }
+
 .workflow__header {
     margin: 0;
     grid-column: 1 / 5;
 }
+
 .workflow__subtitle {
     margin: 0;
     grid-column: 7 / 10;
     padding-top: 22px;
     padding-bottom: 20px;
 }
+
 .workflow__stage {
     border-bottom: 1px solid black;
     grid-column: 7 / 13;
@@ -20,12 +23,14 @@
     margin: 0;
     padding-top:24px;
 }
+
 .workflow__text {
     grid-column: 4 / 7;
     text-align: left;
     font-size: 16px;
     line-height: 22px;
 }
+
 .workflow__stage-title {
     grid-column: 1 / 4;
 }
@@ -34,26 +39,24 @@
     .workflow {
         margin-top:48px;
     }
+
     .workflow__header {
-        margin: 0;
         grid-column: 1 / -1;
     }
+
     .workflow__subtitle {
         grid-column: 1 / -1;
-        padding-top: 22px;
-        padding-bottom: 20px;
     }
+
     .workflow__stage {
         grid-column: 1 / -1;
-        display: grid;
-        grid-template-columns: repeat(6,1fr);
-        column-gap: 20px;
-        margin: 0;
         padding-top:20px;
     }
+
     .workflow__text {
-        grid-column: 1 / 7;
+        grid-column: 1 / -1;
     }
+    
     .workflow__stage-title {
         grid-column: 1 / -1;
         text-wrap: nowrap;

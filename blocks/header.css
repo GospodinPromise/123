@@ -2,20 +2,24 @@
     width: 100%;
     margin-top:12px;
 }
+
 .header__list {
     margin:0;    
     padding: 0;
     grid-column: 9;
     list-style-type:none;
 }
+
 .header__list-link {
     text-decoration: none;
     color:black;
     font-size: 18px;
 }
+
 .header__list-link:hover {
     text-decoration: underline;
 }
+
 .header__number {
     font-size: 18px;
     color: black;
@@ -24,18 +28,22 @@
     justify-self: end;
     align-self: start;
 }
+
 .header__number:hover {
     text-decoration: underline;
 }
+
 .header__image {
     margin: 0;
     grid-column: 1;
     justify-self: start;
     align-self: start;
 }
+
 .header__list li:not(:last-child) {
     margin-bottom: 8px;
 }
+
 .header__menu{
     display: none;
 }
@@ -45,13 +53,16 @@
     .header__number {
     display: none;
     }
+
     .header__list{
-        display: none;
+    display: none;
     }
+
     .header__image-logo {
         width: 39px;
         height: 41px;
     }
+    
     .header__menu{
         display: block;
         grid-column: 4 / -1;
