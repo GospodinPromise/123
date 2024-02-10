@@ -5,12 +5,10 @@
 .about__header {
     grid-column: 1 / 6;
     margin: 0;
-    padding-top: 29px;
 }
 .about__text { 
     grid-column: 7 / 11;
     margin: 0;
-    padding-top: 29px;
 }
 .about__text p {
     font-size: 16px;
@@ -18,22 +16,19 @@
     text-align: left;
     margin-bottom: 0;
 }
-.about__feature {
+.about__feature{
     grid-column: 7 / 9;
-    margin: 0;
-    margin-top: 44px;
+    margin-top: 24px;
 }
-.about__feature__class:not(:last-child){
-    margin-bottom: 24px;
+.about__feature:not(:last-child){
+    margin-bottom: 0px;
 }
-.about__feature__class::first-line{
+.about__feature::first-line{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 36px;
     line-height: 50px;
-    text-align: left;
-    margin: 0;
 }
-.about__feature__class p {
+.about__feature p {
     margin:0;
     width: 150px;
 }
@@ -63,11 +58,11 @@
         margin-top: 24px;
         width: 0;
     }
-    .about__feature__class::first-line{
+    .about__feature::first-line{
         font-size: 24px;
         line-height: 33px;
     }
-    .about__feature__class p {
+    .about__feature p {
         margin:0;
         width: 150px;
     }

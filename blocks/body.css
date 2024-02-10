@@ -1,6 +1,4 @@
-:root{
-    --mobile-width-only: 480px;
-}
+
 @font-face {
 font-family: 'Helvetica Now Display';
 src: local('Helvetica Now Display Regular'), local('Helvetica-Now-Display-Regular'),
