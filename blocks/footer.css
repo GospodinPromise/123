@@ -51,10 +51,8 @@
         display: flex;
         align-content: space-between;
         flex-direction: column;
-        padding-left: 51px;
-        padding-right: 51px;
+        padding: 0 51px 16px;
         align-items: center;
-        padding-bottom: 16px;
         flex-direction: column-reverse;
         row-gap: 24px;
     }

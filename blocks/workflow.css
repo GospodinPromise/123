@@ -36,15 +36,15 @@
     }
     .workflow__header {
         margin: 0;
-        grid-column: 1 / 5;
+        grid-column: 1 / -1;
     }
     .workflow__subtitle {
-        grid-column: 1 / 5;
+        grid-column: 1 / -1;
         padding-top: 22px;
         padding-bottom: 20px;
     }
     .workflow__stage {
-        grid-column: 1 / 5;
+        grid-column: 1 / -1;
         display: grid;
         grid-template-columns: repeat(6,1fr);
         column-gap: 20px;
@@ -55,7 +55,7 @@
         grid-column: 1 / 7;
     }
     .workflow__stage-title {
-        grid-column: 1 / 5;
+        grid-column: 1 / -1;
         text-wrap: nowrap;
     }
 }

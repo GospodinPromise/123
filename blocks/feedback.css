@@ -68,6 +68,6 @@
         display: none;
     }
     .feedback__application {
-        grid-column: 1 / 5;
+        grid-column: 1 / -1;
     }
 }
