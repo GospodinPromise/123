@@ -12,6 +12,7 @@ src: local('Helvetica Now Display Regular'), local('Helvetica-Now-Display-Regula
 :root {
     --black-color: #000000;
     --white-color: #ffffff;
+    --gray-color: #DDD7C0; 
 }
 
 .input:focus ~ label {

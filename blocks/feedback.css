@@ -57,6 +57,10 @@
 
 }
 
+.feedback__text-field input:focus{
+    border-color: var(--gray-color);
+}
+
 .feedback__button {
     display: block;
     width: 176px;
