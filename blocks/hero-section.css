@@ -1,19 +1,18 @@
 .hero-section {
-    margin-top: 20px;
-    width: 100%;
     grid-row: 258px auto;
     row-gap: 40px;
+    margin-top: 20px;
 }
 
 .hero-section__link {
     grid-column: 11 / 13;
-    font-size: 18px;
+    grid-row: 1;
     justify-self: end;
     align-self: end;
+    font-size: 18px;
     text-transform: uppercase;
-    color: black;
-    grid-row: 1;
     text-decoration: none;
+    color: #212529;
 }
 
 .hero-section__link:hover {
@@ -21,22 +20,21 @@
 }
 
 .hero-section-header {
+    grid-column: 1 / 8;
     display: block;
     margin: 0;
     font-size: 72px;
-    text-align: left;
-    text-transform: uppercase;
     line-height: 86px;
-    grid-column: 1 / 8;
+    text-transform: uppercase;
 }
 
 .hero-section-subtitle {
     display: block;
     grid-column: 1 / 5;
+    grid-row: 2;
+    margin: 0;
     font-size: 20px;
     line-height: 28px;
-    grid-row:2;
-    margin: 0;
 } 
 
 .hero-section__small {
@@ -66,24 +64,26 @@
     }
 
     .hero-section-header {
+        grid-column: 1 / -1;
         font-size: 32px;
         line-height: 38px;
-        grid-column: 1 / -1;
     }
 
     .hero-section-subtitle {
         grid-column: 1 / -1;
+        margin-bottom: 24px;
         font-size: 16px;
         line-height: 22px;
-        margin-bottom: 24px;
     } 
 
     .hero-section__small {
         display: none;
     }
-    
-    .hero-section__big {
+    .hero-section__big{
         grid-column: 1 / -1;
+    }
+    
+    .hero-section__big-image {
         width: 343px;
         height: 261px;
         object-fit: cover;

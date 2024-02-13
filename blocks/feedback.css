@@ -1,11 +1,12 @@
 .feedback {
-    width: 100%;
-    margin-top: 120px;
+    position: relative;
     grid-template-rows: 120px 307px 150px;
+    margin-top: 120px;
 }
 
 .feedback__image {
-    grid-column: 1 / 6;
+    grid-column: 1 / 7;
+    position: absolute;
 }
 
 .feedback__application {
@@ -17,44 +18,70 @@
     margin-bottom: 32px;
 }
 
-.feedback__input {
+.feedback__text-field {
+    position: relative;
     width: 100%;
+    margin-bottom: 32px;
+}
+.feedback__text-field input {
+    background-color: #FFF;
     border: 0;
-    border-bottom: 1px solid black;
-    height: 31px;
-    font-size: 31px;
-    margin-bottom: 16px;
-}
-
-.feedback__input::placeholder {
-    color: black;
-    transform: translateY(-11px);
+    border-bottom: 1px solid #212529;
+    box-sizing: border-box;
+    color: var(--black-color);
     font-size: 16px;
-}
-
-.feedback__input:focus {
+    height: 30px;
     outline: 0;
+    width: 100%;
+}
+.feedback__text-field label {
+    color: var(--black-color);
+    font-family: Verdana, sans-serif;   
+    background-color: var(--white-color);
+    font-size: 16px;
+    line-height: 16px;
+    padding: 5px 10px;
+    pointer-events: none;
+    position: absolute;
+    transition: all 200ms;
+    top: 0px;
+    left: -10px;
+    background-color: var(--white-color);
+}
+.feedback__text-field input:focus + label,
+.feedback__text-field input:not(:placeholder-shown) + label{
+    top: -25px;
+    left: 0px;
+    font-size: 11px; 
+    background-color: #BFE2FF;
+
 }
 
 .feedback__button {
     display: block;
-    background-color: black;
-    color: aliceblue;
     width: 176px;
     height: 46px;
     margin-bottom: 40px;
-    border-radius: 15px;
+    color: aliceblue;
+    background-color:#212529;
+    border: 0;
+    transition: all 0.3s ease-in-out;
 }
 
 .feedback__button:hover {
-    background: rgb(45, 27, 79);
-    transform: scale(1.1);
-    transition: all 0.3s ease-in-out;
+    background: #DDD7C0;
+    color: black;
+}
+
+.feedback__button:active{
+    transition: none;
+    box-shadow: 0 0 0 3px lightskyblue;
+    background-color: #CBC6B2;
 }
 
 .download-link:hover {
-    transform: scale(1.1);
     transition: all 0.3s ease-in-out;
+    transform: scale(1.1);
 }
 
 .download-link {
@@ -72,15 +99,31 @@
 
 @media screen and (max-width:480px){
     .feedback {
+        grid-template-rows: 120px 248px;
         margin-top: 48px;
-        grid-template-rows: 120px 307px;
     }
 
     .feedback__image {
         display: none;
     }
-    
+
+    .feedback__button:hover{
+        background-color: #F9C67B;
+    }
+
     .feedback__application {
         grid-column: 1 / -1;
     }
+
+    .feedback__input:focus{
+        background-color: inherit;
+    }
+    .feedback__subtitle{
+        margin-bottom: 32px;
+    }
+
+    .feedback__button{
+        margin-bottom: 28px;
+    }
+
 }

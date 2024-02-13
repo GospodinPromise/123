@@ -1,8 +1,8 @@
 .footer {
-    margin-top: 120px;    
     display: flex;
     justify-content: space-between;
     align-items: end;
+    margin-top: 120px;  
     padding-bottom: 16px;
 }
 
@@ -23,7 +23,7 @@
 
 .footer__legal-docs {
     margin: 0;
-    color: black;
+    color: #212529;
 }
 
 .footer__socials {
@@ -33,7 +33,7 @@
 .footer_social-link {
     text-transform: uppercase;
     text-decoration: 0;
-    color: black; 
+    color: #212529;
 }
 
 .footer_social-link + .footer_social-link {
@@ -42,7 +42,7 @@
 
 .footer__legal-doc-link {
     text-decoration: 0;
-    color: black;
+    color: #212529;
 }
 
 .footer__legal-doc-link:hover {
@@ -55,13 +55,12 @@
 
 @media screen and (max-width:480px){
     .footer {
-        margin-top: 60px;
-        align-content: space-between;
-        flex-direction: column;
-        padding: 0 51px 16px;
-        align-items: center;
         flex-direction: column-reverse;
+        align-content: space-between;
+        align-items: center;
         row-gap: 24px;
+        margin-top: 60px;
+        padding: 0 51px 16px;
     }
 
     .footer__rights-year {
@@ -79,7 +78,7 @@
     
     .footer__legal-doc-link {
         font-size: 16px;
-        text-align: center;
         line-height: 2;
+        text-align: center;
     }
 }

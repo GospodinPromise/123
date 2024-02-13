@@ -3,32 +3,32 @@
 }
 
 .workflow__header {
-    margin: 0;
     grid-column: 1 / 5;
+    margin: 0;
 }
 
 .workflow__subtitle {
-    margin: 0;
     grid-column: 7 / 10;
+    margin: 0;
     padding-top: 22px;
     padding-bottom: 20px;
 }
 
 .workflow__stage {
-    border-bottom: 1px solid black;
     grid-column: 7 / 13;
     display: grid;
     grid-template-columns: repeat(6,1fr);
     column-gap: 20px;
     margin: 0;
     padding-top:24px;
+    border-bottom: 1px solid black;
 }
 
 .workflow__text {
     grid-column: 4 / 7;
-    text-align: left;
     font-size: 16px;
     line-height: 22px;
+    text-align: left;
 }
 
 .workflow__stage-title {

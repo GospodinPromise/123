@@ -1,5 +1,4 @@
 .about {
-    width:100% ;
     margin-top: 120px;
 }
 
@@ -16,7 +15,6 @@
 .about__text p {
     font-size: 16px;
     line-height: 22px;
-    text-align: left;
     margin-bottom: 0;
 }
 
@@ -36,8 +34,8 @@
 }
 
 .about__feature p {
-    margin:0;
     width: 150px;
+    margin:0;
 }
 
 .about__header-adaptive{
@@ -55,8 +53,8 @@
 
     .about__text { 
         grid-column: 1 / -1;
-        padding: 0;
         margin-top: 20px;
+        padding: 0;
     }
 
     .about__feature {
@@ -72,8 +70,8 @@
     
     .about__header-adaptive{
         display: inline;
-        text-wrap: nowrap;
-        margin: 0;
         grid-column: 1 / -1;
+        margin: 0;
+        text-wrap: nowrap;
     }
 }
