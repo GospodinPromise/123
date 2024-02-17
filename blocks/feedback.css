@@ -5,8 +5,8 @@
 }
 
 .feedback__image {
-    grid-column: 1 / 7;
     position: absolute;
+    grid-column: 1 / 7;
 }
 
 .feedback__application {
@@ -23,33 +23,35 @@
     width: 100%;
     margin-bottom: 32px;
 }
+
 .feedback__text-field input {
-    background-color: #FFF;
+    background-color: inherit;
     border: 0;
-    border-bottom: 1px solid #212529;
+    border-bottom: 1px solid var(--black);
     box-sizing: border-box;
-    color: var(--black-color);
+    color: var(--black);
     font-size: 16px;
     height: 30px;
     outline: 0;
     width: 100%;
 }
+
 .feedback__text-field label {
-    color: var(--black-color);
-    font-family: Verdana, sans-serif;   
-    background-color: var(--white-color);
-    font-size: 16px;
-    line-height: 16px;
-    padding: 5px 10px;
-    pointer-events: none;
     position: absolute;
-    transition: all 200ms;
     top: 0px;
     left: -10px;
-    background-color: var(--white-color);
+    padding: 5px 10px;
+    color: var(--black);
+    font-family: Verdana, sans-serif;   
+    font-size: 16px;
+    line-height: 16px;
+    background-color: inherit;
+    transition: all 200ms;
+    pointer-events: none;
 }
+
 .feedback__text-field input:focus + label,
-.feedback__text-field input:not(:placeholder-shown) + label{
+.feedback__text-field input:not(:placeholder-shown) + label {
     top: -25px;
     left: 0px;
     font-size: 11px; 
@@ -57,8 +59,8 @@
 
 }
 
-.feedback__text-field input:focus{
-    border-color: var(--gray-color);
+.feedback__text-field input:focus {
+    border-color: var(--pea);
 }
 
 .feedback__button {
@@ -66,21 +68,21 @@
     width: 176px;
     height: 46px;
     margin-bottom: 40px;
-    color: aliceblue;
-    background-color:#212529;
+    color: var(--aliceblue);
+    background-color:var(--gray);
     border: 0;
     transition: all 0.3s ease-in-out;
 }
 
 .feedback__button:hover {
-    background: #DDD7C0;
-    color: black;
+    background: var(--pea);
+    color: var(--black);
 }
 
-.feedback__button:active{
+.feedback__button:active {
     transition: none;
     box-shadow: 0 0 0 3px lightskyblue;
-    background-color: #CBC6B2;
+    background-color: var(--pea);
 }
 
 .download-link:hover {
@@ -101,7 +103,11 @@
     margin-bottom: 72px
 }
 
-@media screen and (max-width:480px){
+.feedback__button:disabled {
+    background-color: var(--gray)
+}
+
+@media screen and (max-width:480px) {
     .feedback {
         grid-template-rows: 120px 248px;
         margin-top: 48px;
@@ -112,22 +118,18 @@
     }
 
     .feedback__button:hover{
-        background-color: #F9C67B;
+        background-color: var(--pea);
     }
 
     .feedback__application {
         grid-column: 1 / -1;
     }
 
-    .feedback__input:focus{
-        background-color: inherit;
-    }
-    .feedback__subtitle{
+    .feedback__subtitle {
         margin-bottom: 32px;
     }
 
-    .feedback__button{
+    .feedback__button {
         margin-bottom: 28px;
     }
-
 }

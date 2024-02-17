@@ -7,8 +7,7 @@
     display: grid;
     grid-template-rows: 40px 40px 32px 1fr 60px;
     grid-template-columns: 40px 163px 40px 1fr 40px;
-    height: 327px;
-    border: 1px solid black;
+    border: 1px solid var(--black);
 }
 
 .reviews__title {
@@ -27,7 +26,7 @@
     text-align: center;
 }
 
-.reviews__text{
+.reviews__text {
     grid-column: 2 / 5;
     grid-row:4;
     padding-top: 20px;
@@ -46,7 +45,7 @@
     grid-column: 9 / 13;
 }
 
-.reviews__item::before{
+.reviews__item::before {
     grid-column: 3 / 4;
     grid-row: 2 / 3;
     width: 40px;
@@ -55,7 +54,7 @@
     content: "";
 }
 
-@media screen and (max-width:480px){
+@media screen and (max-width:480px) {
     .reviews {
         display: block;
         margin-top: 48px;
@@ -66,7 +65,7 @@
         grid-template-rows: 32px 32px 32px 200px 36px;
     }
 
-    .reviews__item:not(:last-child){
+    .reviews__item:not(:last-child) {
         margin-bottom: 16px;
     }
 
@@ -92,7 +91,7 @@
         grid-column: 1 / -1;
     }
     
-    .reviews__item::before{
+    .reviews__item::before {
         grid-column: 2 / 3;
         justify-self: center;
         background-image: url(../images/staples.svg);
