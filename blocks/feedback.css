@@ -25,7 +25,6 @@
 }
 
 .feedback__text-field input {
-    background-color: inherit;
     border: 0;
     border-bottom: 1px solid var(--black);
     box-sizing: border-box;
@@ -42,7 +41,7 @@
     left: -10px;
     padding: 5px 10px;
     color: var(--black);
-    font-family: Verdana, sans-serif;   
+    font-family: var(--primary-font);   
     font-size: 16px;
     line-height: 16px;
     background-color: inherit;
@@ -55,7 +54,7 @@
     top: -25px;
     left: 0px;
     font-size: 11px; 
-    background-color: #BFE2FF;
+    background-color: var(--blue-white);
 
 }
 

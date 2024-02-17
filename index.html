@@ -88,55 +88,49 @@
   </section> 
 
   <section class="projects grid" id="projects">
-    <h2 class="projects__text"> Проекты </h2>
-    <div class="projects__image column--1">
-      <a class="projects__image_tv_2" href="#">
-        <p class="projects__image-text">Тумба под телевизор</p>
-        <div class="projects__image-text-cross">
-          <img src="images/cross.svg" alt="Гостевая" loading="lazy" width="12px" height="12px"> 
-        </div>
-      </a>
-    </div>
-    <div class="projects__image column--2">
-      <a class="projects__image_tv_2" href="#">
-        <p class="projects__image-text">Стеллаж в прихожую</p>
-          <div class="projects__image-text-cross">
-            <img src="images/cross.svg" alt="Гостевая" loading="lazy" width="12px" height="12px"> 
-          </div>
-        </a>
-    </div>
-    <div class="projects__image column--3">
-      <a class="projects__image_tv_2" href="#">
-        <p class="projects__image-text">Кухонный гарнитур</p>
-          <div class="projects__image-text-cross">
-            <img src="images/cross.svg" alt="Гостевая" loading="lazy" width="12px" height="12px"> 
-          </div>
-      </a>
-    </div>
-    <div class="projects__image column--4">
-      <a class="projects__image_tv_2" href="#">
-        <p class="projects__image-text">Двуспальная кровать</p>
-          <div class="projects__image-text-cross"> 
-            <img src="images/cross.svg" alt="Гостевая" loading="lazy" width="12px" height="12px"> 
-          </div>
-      </a>
-    </div>
-    <div class="projects__image column--5">
-      <a class="projects__image_tv_2" href="#">
-        <p class="projects__image-text">Диван в гостинную</p>
-          <div class="projects__image-text-cross">
-            <img src="images/cross.svg" alt="Гостевая" loading="lazy" width="12px" height="12px"> 
-          </div>
-        </a>
-    </div>
-    <div class="projects__image column--6">
-      <a class="projects__image_tv_2" href="#">
-        <p class="projects__image-text">Тумба под цветы</p>
-        <div class="projects__image-text-cross">
-          <img src="images/cross.svg" alt="Гостевая" loading="lazy" width="12px" height="12px"> 
-        </div>
-      </a>
-    </div>
+    <h2>Проекты</h2>
+    <a class="projects__item column--1" href="#">
+      <img class="projects__image" src="images/project-img.jpg" width="445px" height="580px" loading="lazy">
+      <div class="projects__name">
+        <p>Тумба под телевизор</p>
+        <div class="projects-icon"> <img src="images/cross.svg" width="12px" height="12px"> </div>
+      </div>
+    </a> 
+    <a class="projects__item column--2" href="#">
+      <img class="projects__image" src="images/middle-upper.jpg" width="445px" height="580px" loading="lazy">
+      <div class="projects__name">
+        <p>Кухонный гарнитур</p>
+        <div class="projects-icon"> <img src="images/cross.svg" width="12px" height="12px"> </div>
+      </div>
+    </a>
+    <a class="projects__item column--3" href="#">
+      <img class="projects__image" src="images/right-upper.jpg" width="445px" height="580px" loading="lazy">
+      <div class="projects__name">
+        <p>Кресло в гостевую</p>
+        <div class="projects-icon"> <img src="images/cross.svg" width="12px" height="12px"> </div>
+      </div>
+    </a>
+    <a class="projects__item column--4" href="#">
+      <img class="projects__image" src="images/lower-left.jpg" width="445px" height="580px" loading="lazy">
+      <div class="projects__name">
+        <p>Стеллаж в прихожую</p>
+        <div class="projects-icon"> <img src="images/cross.svg" width="12px" height="12px"> </div>
+      </div>
+    </a>
+    <a class="projects__item column--5" href="#">
+      <img class="projects__image" src="images/middle-lower.jpg" width="445px" height="580px" loading="lazy">
+      <div class="projects__name">
+        <p>Двуспальная кровать</p>
+        <div class="projects-icon"> <img src="images/cross.svg" width="12px" height="12px"> </div>
+      </div>
+    </a>
+    <a class="projects__item column--6" href="#">
+      <img class="projects__image" src="images/right-down.jpg" width="445px" height="580px" loading="lazy">
+      <div class="projects__name">
+        <p>Декоротивная тумбочка</p>
+        <div class="projects__icon"> <img src="images/cross.svg" width="12px" height="12px"> </div>
+      </div>
+    </a>
   </section>  
 
   <section class="reviews grid" id="reviews">
@@ -160,7 +154,7 @@
       <source type="image/webp" srcset="images@webp/bedroom_10_11zon.webp 1x, images@webp2x/bedroom@2x_10_11zon.webp 2x">
       <img src="images/bedroom.jpg" srcset="images2x/bedroom@2x.jpg 2x" alt="спальня" loading="lazy" width="570px" height="100%">
     </picture>
-    <form class="feedback__application" method="get">
+    <form class="feedback__application" method="post">
       <h2 class="feedback__title">Хотите заказать проект?</h2>
       <p class="feedback__subtitle">Оставьте заявку, и мы вам перезвоним</p>
       <div class="feedback__text-field">
@@ -168,7 +162,7 @@
         <label class="feedback__label" for="name">Имя</label>
       </div>
       <div class="feedback__text-field">
-        <input class="feedback__input" type="email" name="email" placeholder="" required name="E-mail"> 
+        <input class="feedback__input" type="email" name="email" placeholder="" required> 
         <label class="feedback__label" for="email">E-mail</label>
       </div>
       <div class="feedback__text-field">
