@@ -1,0 +1,13 @@
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --pea: #ddd7c0; 
+    --gray: #212529;
+    --aliceblue: #f0f8ff;
+    --shadow:rgba(33, 37, 41, 0.5);
+    --blue-white: #bfe2ff;
+    --yellow-gray: #cbc6b2;
+
+    --primary-font: Verdana, sans-serif; 
+    --secondary-font: Arial, Helvetica, sans-serif;
+}
