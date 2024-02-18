@@ -27,7 +27,7 @@
   </header>
 
   <section class="hero-section grid">
-    <h1 class="hero-section-header">Эксклюзивная и нестандартная мебель для дома</h1>
+    <h1 class="hero-section-header h1">Эксклюзивная и нестандартная мебель для дома</h1>
     <p class="hero-section-subtitle">Мы можем произвести любую мебель для вашего проекта и найти производственное решение любой задумки.</p>
     <a href="#" class="hero-section__link">Заказать проект</a>
     <picture class="hero-section__small">
@@ -41,8 +41,8 @@
   </section>
 
   <section class="about grid" id="about">
-    <h2 class="about__header">Более 5 лет создаем мебель для вашего комфорта</h2>
-    <h2 class="about__header-adaptive">О компании</h2>
+    <h2 class="about__header h2">Более 5 лет создаем мебель для вашего комфорта</h2>
+    <h2 class="about__header-adaptive h2">О компании</h2>
     <div class="about__text">
       <p>Мы — команда профессионалов, которые могут произвести любую мебель для вашего проекта, а также найти производственное решение любой задумки.</p>
       <p>Наша основная цель — реализовывать самые смелые задумки, и делать это качественно и аккуратно.</p>
@@ -63,69 +63,87 @@
   </section> 
 
   <section class="workflow grid" id="workflow">
-    <h2 class="workflow__header">Как мы работаем</h2>
+    <h2 class="workflow__header h2">Как мы работаем</h2>
     <p class="workflow__subtitle">Алгоритм работы с нами для удобства и понимания проекта</p>
     <div class="workflow__stage">
-      <h3 class="workflow__stage-title">Идея</h3>
+      <h3 class="workflow__stage-title h3">Идея</h3>
       <p class="workflow__text">Клиент приходит к нам с идеей. Это может быть изображение/ эскиз или другой референс. А мы думаем над тем, как это реализовать, делаем технические чертежи и предлагаем решения по материалам.</p>
     </div> 
     <div class="workflow__stage">
-      <h3 class="workflow__stage-title">Техническое задание</h3>
+      <h3 class="workflow__stage-title h3">Техническое задание</h3>
       <p class="workflow__text">Вместе с клиентом формулируем корректное ТЗ, которое включает в себя визуализацию изделия, эскизный чертёж с габаритами, информацию по материалам и отделке, срок реализации проекта и другие обязательные пункты.</p>
     </div>  
     <div class="workflow__stage">
-      <h3 class="workflow__stage-title">Коммерческое предложение</h3>
+      <h3 class="workflow__stage-title h3">Коммерческое предложение</h3>
       <p class="workflow__text">Предпочтительно используем натуральные материалы. Но любую смету можем оптимизировать, упростив материалы или конструктив. Сможем подстроиться под бюджет клиента и согласуем коммерческое предложение</p>
     </div>   
     <div class="workflow__stage">
-      <h3 class="workflow__stage-title">Подготовка рабочего проекта</h3>
+      <h3 class="workflow__stage-title h3">Подготовка рабочего проекта</h3>
       <p class="workflow__text">Создадим рабочую документацию и чертежи. Это фундамент качественного производства. На этом этапе утверждаем с клиентом все габариты и материалы, чертежи и приступаем к производству.</p>
     </div> 
     <div class="workflow__stage">
-      <h3 class="workflow__stage-title">Производство и монтаж</h3>
+      <h3 class="workflow__stage-title h3">Производство и монтаж</h3>
       <p class="workflow__text">Производство занимает от 15 рабочих дней, в зависимости от сложности и объёма. Монтажом тоже занимаемся самостоятельно. Ведь мы это сделаем быстро и аккуратно.</p>
     </div>   
   </section> 
 
   <section class="projects grid" id="projects">
-    <h2>Проекты</h2>
+    <h2 class="h2">Проекты</h2>
     <a class="projects__item column--1" href="#">
-      <img class="projects__image" src="images/project-img.jpg" width="445px" height="580px" loading="lazy">
+      <picture>
+        <source type="image/webp" srcset="images@webp/project-img_3_11zon.webp 1x, images@webp2x/project-img@2x_9_11zon.webp 2x">
+        <img class="projects__image" src="images/project-img.jpg" srcset="images2x/project-img@2x.jpg 2x" width="445px" height="580px" loading="lazy">
+      </picture>
       <div class="projects__name">
         <p>Тумба под телевизор</p>
-        <div class="projects-icon"> <img src="images/cross.svg" width="12px" height="12px"> </div>
+        <div class="projects__icon"> <img src="images/cross.svg" width="12px" height="12px"> </div>
       </div>
     </a> 
     <a class="projects__item column--2" href="#">
-      <img class="projects__image" src="images/middle-upper.jpg" width="445px" height="580px" loading="lazy">
-      <div class="projects__name">
+      <picture> 
+        <source type="image/webp" srcset="images@webp/middle-upper_7_11zon.webp 1x, images@webp2x/middle-upper@2x_14_11zon.webp 2x">
+        <img class="projects__image" src="images/middle-upper.jpg" srcset="images2x/middle-upper@2x.jpg" width="445px" height="580px" loading="lazy">
+      </picture>
+      <div class="projects__name"> 
         <p>Кухонный гарнитур</p>
-        <div class="projects-icon"> <img src="images/cross.svg" width="12px" height="12px"> </div>
+        <div class="projects__icon"> <img src="images/cross.svg" width="12px" height="12px"> </div>
       </div>
     </a>
     <a class="projects__item column--3" href="#">
-      <img class="projects__image" src="images/right-upper.jpg" width="445px" height="580px" loading="lazy">
+      <picture>
+        <source type="image/webp" srcset="images@webp/right-upper_1_11zon.webp 1x, images@webp2x/right-upper@2x_17_11zon.webp 2x">
+        <img class="projects__image" src="images/right-upper.jpg" srcset="images2x/right-upper@2x.jpg" width="445px" height="580px" loading="lazy">
+      </picture>
       <div class="projects__name">
         <p>Кресло в гостевую</p>
-        <div class="projects-icon"> <img src="images/cross.svg" width="12px" height="12px"> </div>
+        <div class="projects__icon"> <img src="images/cross.svg" width="12px" height="12px"> </div>
       </div>
     </a>
     <a class="projects__item column--4" href="#">
-      <img class="projects__image" src="images/lower-left.jpg" width="445px" height="580px" loading="lazy">
+      <picture>
+        <source type="image/webp" srcset="images@webp/lower-left_5_11zon.webp 1x, images@webp2x/lower-left@2x_12_11zon.webp 2x">
+        <img class="projects__image" src="images/lower-left.jpg" srcset="images2x/lower-left@2x.jpg" width="445px" height="580px" loading="lazy">
+      </picture>
       <div class="projects__name">
         <p>Стеллаж в прихожую</p>
-        <div class="projects-icon"> <img src="images/cross.svg" width="12px" height="12px"> </div>
+        <div class="projects__icon"> <img src="images/cross.svg" width="12px" height="12px"> </div>
       </div>
     </a>
     <a class="projects__item column--5" href="#">
-      <img class="projects__image" src="images/middle-lower.jpg" width="445px" height="580px" loading="lazy">
+      <picture>
+        <source type="image/webp" srcset="images@webp/middle-lower_6_11zon.webp 1x, images@webp2x/middle-lower@2x_13_11zon.webp 2x">
+        <img class="projects__image" src="images/middle-lower.jpg" srcset="images2x/middle-lower@2x.jpg" width="445px" height="580px" loading="lazy">
+      </picture>
       <div class="projects__name">
         <p>Двуспальная кровать</p>
-        <div class="projects-icon"> <img src="images/cross.svg" width="12px" height="12px"> </div>
+        <div class="projects__icon"> <img src="images/cross.svg" width="12px" height="12px"> </div>
       </div>
     </a>
     <a class="projects__item column--6" href="#">
-      <img class="projects__image" src="images/right-down.jpg" width="445px" height="580px" loading="lazy">
+      <picture>
+        <source type="image/webp" srcset="images@webp/right-down_4_11zon.webp 1x, images@webp2x/right-down@2x_15_11zon.webp 2x">
+        <img class="projects__image" src="images/right-down.jpg" srcset="images2x/right-down@2x.jpg" width="445px" height="580px" loading="lazy">
+      </picture>
       <div class="projects__name">
         <p>Декоротивная тумбочка</p>
         <div class="projects__icon"> <img src="images/cross.svg" width="12px" height="12px"> </div>
@@ -134,7 +152,7 @@
   </section>  
 
   <section class="reviews grid" id="reviews">
-    <h2 class="reviews__title">Отзывы</h2>
+    <h2 class="reviews__title h2">Отзывы</h2>
     <div class="reviews__item reviews__item--first">
       <p class="reviews__author">Игорь Антонов</p>
       <p class="reviews__text">Обратилась к Aveji по рекомендации. Команда сразу поняла, какой дизайн я хочу. Предоставили несколько вариантов и в течение недели сделали наброски. Итог понравился, все на высшем уровне.</p>
@@ -155,18 +173,18 @@
       <img src="images/bedroom.jpg" srcset="images2x/bedroom@2x.jpg 2x" alt="спальня" loading="lazy" width="570px" height="100%">
     </picture>
     <form class="feedback__application" method="post">
-      <h2 class="feedback__title">Хотите заказать проект?</h2>
+      <h2 class="feedback__title h2">Хотите заказать проект?</h2>
       <p class="feedback__subtitle">Оставьте заявку, и мы вам перезвоним</p>
       <div class="feedback__text-field">
-        <input class="feedback__input" name="name" placeholder="" type="text" required name="Text">
+        <input class="feedback__input" name="name" id="name" placeholder="" type="text" required name="Text">
         <label class="feedback__label" for="name">Имя</label>
       </div>
       <div class="feedback__text-field">
-        <input class="feedback__input" type="email" name="email" placeholder="" required> 
+        <input class="feedback__input" type="email" id="email" name="email" placeholder="" required> 
         <label class="feedback__label" for="email">E-mail</label>
       </div>
       <div class="feedback__text-field">
-        <input class="feedback__input" type="tel" name="tel" placeholder="" required name="Telephone">
+        <input class="feedback__input" type="tel" name="tel" id="tel" placeholder="" required name="Telephone">
         <label class="feedback__label" for="tel">Телефон</label>
       </div>
       <button class="feedback__button" type="submit"> Отправить заявку</button>

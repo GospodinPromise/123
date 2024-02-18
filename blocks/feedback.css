@@ -81,7 +81,7 @@
 .feedback__button:active {
     transition: none;
     box-shadow: 0 0 0 3px lightskyblue;
-    background-color: var(--pea);
+    background-color: var(--yellow-gray);
 }
 
 .download-link:hover {
