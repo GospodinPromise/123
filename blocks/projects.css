@@ -4,8 +4,8 @@
 
 .projects__item{
     position: relative;
-    width: 445px;
-    height: 580px;
+    max-width: 445px;
+    max-height: 580px;
     overflow: hidden;
 }
 
@@ -15,6 +15,7 @@
 
 .projects__image{
     transition: all 0.3s ease;
+    object-fit: cover;
 }
 
 .projects h2{
@@ -45,11 +46,14 @@
     color: var(--white);
 }
 
-.projects__icon{
-    grid-column: 2 / 3;
-    justify-self: end;
-    align-self: center;
-    margin-right: 20px;
+.projects__name::before{
+    position: absolute;
+    right: 20px;
+    top:25px;
+    width: 12px;
+    height: 12px;
+    background-image: url(../images/cross.svg);
+    content: "";
 }
 
 .projects__name p {
@@ -61,24 +65,29 @@
     grid-column: 1 / 5;
     grid-row: 2;
 }
+
 .column--2{
     grid-column: 5 / 9;
     grid-row: 2;
 }
+
 .column--3{
     grid-column: 9 / 13;
     grid-row: 2;
 }
+
 .column--4{
     grid-column: 1 / 5;
     grid-row: 3;
     margin-top: 20px;
 }
+
 .column--5{
     grid-column: 5 / 9;
     grid-row: 3;
     margin-top: 20px;
 }
+
 .column--6{
     grid-column: 9 / 13;
     grid-row: 3;
@@ -87,8 +96,8 @@
 
 @media screen and (max-width:480px){
     .projects {
-        padding-top: 48px;
         overflow-x: auto;
+        margin-top: 48px;
     }
 
     .projects__item {
@@ -100,8 +109,82 @@
         margin-left: 12px;
     }
 
-    .projects__icon{
-        margin-right: 12px;
+    .projects__name::before{
+        margin-right: -8px;
+    }
+    .column--4 {
+        grid-column: 13 / 17;
+        grid-row: 2;
+        margin: 0;
+    }
+
+    .column--5 {
+        grid-column: 17 / 21;
+        grid-row: 2;
+        margin: 0;
+    }
+    
+    .column--6 {
+        grid-column: 21 / 25;
+        grid-row: 2;
+        margin: 0;
+    }
+    .projects__image{
+        width: 100%;
+        height: 100%; 
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width:1050px) and (min-width:480px){
+    .projects__item{
+        height: 400px;
+    }
+
+    .projects__image{
+        width: 100%;
+        height: 100%; 
+        object-fit: cover
+    }
+
+    .projects{
+        margin-top: 48px;
+    }
+}
+
+@media screen and (max-width:800px) and (min-width:480px){
+    .projects{
+        margin-top: 48px;
+    }
+
+    .projects__item{
+        height: 300px;
+    }
+
+    .projects__image{
+        width: 100%;
+        height: 100%; 
+        object-fit: cover
+    }
+}
+
+@media screen and (max-width:660px) and (min-width:480px) {
+    .projects {
+        overflow-x: auto;
+        margin-top: 48px;
+    }
+
+    .projects__item {
+        width: 300px;
+        height: 400px; 
+    }
+
+    .projects__name p {
+        margin-left: 12px;
+    }
+
+    .projects__name::before{
+        margin-right: -8px;
     }
     .column--4 {
         grid-column: 13 / 17;

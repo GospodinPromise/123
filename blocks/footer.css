@@ -82,3 +82,34 @@
         text-align: center;
     }
 }
+
+@media screen and (max-width:900px) and (min-width:480px) {
+    .footer {
+        flex-direction: column-reverse;
+        align-content: space-between;
+        align-items: center;
+        row-gap: 24px;
+        margin-top: 20px;
+        padding: 0 51px 16px;
+    }
+
+    .footer__rights-year {
+        text-align: center;
+    }
+
+    .footer__rights-all { 
+        text-align: center;
+    }
+
+    .footer__legal-docs{
+        font-size: 0;
+        text-align: center;
+    }
+    
+    .footer__legal-doc-link {
+        display: block;
+        font-size: 16px;
+        line-height: 2;
+        text-align: center;
+    }
+}

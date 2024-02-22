@@ -27,16 +27,16 @@
   </header>
 
   <section class="hero-section grid">
-    <h1 class="hero-section-header h1">Эксклюзивная и нестандартная мебель для дома</h1>
+    <h1 class="hero-section-header h1">Эксклюзивная и нестандартная <span class="text--nowrap">мебель для дома</span></h1>
     <p class="hero-section-subtitle">Мы можем произвести любую мебель для вашего проекта и найти производственное решение любой задумки.</p>
     <a href="#" class="hero-section__link">Заказать проект</a>
     <picture class="hero-section__small">
-      <source type="image/webp" srcset="images@webp/small_2_11zon.webp 1x, images@webp2x/small_2_11zon.webp 2x">  
-      <img src="images/small.jpg" srcset="images2x/samll@2x.jpg 2x" alt="Кухонный диван" width="329px" height="493px"> 
+      <source type="image/webp" srcset="images@webp/small_2_11zon.webp 1x, images@webp2x/small@2x_16_11zon.webp 2x">  
+      <img src="images/small.jpg" srcset="images2x/small@2x.jpg 2x" alt="Кухонный диван" width="329px" height="493px"> 
     </picture>  
     <picture class="hero-section__big">
       <source type="image/webp" srcset="images@webp/big_8_11zon.webp 1x, images@webp2x/big@2x_11_11zon.webp 2x">
-      <img class="hero-section__big-image" src="images/big.jpg" srcset="images2x/big@2x.jpg 2x" alt="Зеркало с диваном" width="678px" height="809px">
+      <img src="images/big.jpg" srcset="images2x/big@2x.jpg 2x" alt="Зеркало с диваном" width="678px" height="809px">
     </picture>
   </section>
 
@@ -64,7 +64,7 @@
 
   <section class="workflow grid" id="workflow">
     <h2 class="workflow__header h2">Как мы работаем</h2>
-    <p class="workflow__subtitle">Алгоритм работы с нами для удобства и понимания проекта</p>
+    <p class="workflow__subtitle">Алгоритм работы с нами для удобства <span class="text--nowrap"> и понимания  проекта </span></p>
     <div class="workflow__stage">
       <h3 class="workflow__stage-title h3">Идея</h3>
       <p class="workflow__text">Клиент приходит к нам с идеей. Это может быть изображение/ эскиз или другой референс. А мы думаем над тем, как это реализовать, делаем технические чертежи и предлагаем решения по материалам.</p>
@@ -87,7 +87,7 @@
     </div>   
   </section> 
 
-  <section class="projects grid" id="projects">
+  <section class="projects second--grid" id="projects">
     <h2 class="h2">Проекты</h2>
     <a class="projects__item column--1" href="#">
       <picture>
@@ -96,7 +96,6 @@
       </picture>
       <div class="projects__name">
         <p>Тумба под телевизор</p>
-        <div class="projects__icon"> <img src="images/cross.svg" width="12px" height="12px"> </div>
       </div>
     </a> 
     <a class="projects__item column--2" href="#">
@@ -106,7 +105,6 @@
       </picture>
       <div class="projects__name"> 
         <p>Кухонный гарнитур</p>
-        <div class="projects__icon"> <img src="images/cross.svg" width="12px" height="12px"> </div>
       </div>
     </a>
     <a class="projects__item column--3" href="#">
@@ -116,7 +114,6 @@
       </picture>
       <div class="projects__name">
         <p>Кресло в гостевую</p>
-        <div class="projects__icon"> <img src="images/cross.svg" width="12px" height="12px"> </div>
       </div>
     </a>
     <a class="projects__item column--4" href="#">
@@ -126,7 +123,6 @@
       </picture>
       <div class="projects__name">
         <p>Стеллаж в прихожую</p>
-        <div class="projects__icon"> <img src="images/cross.svg" width="12px" height="12px"> </div>
       </div>
     </a>
     <a class="projects__item column--5" href="#">
@@ -136,7 +132,6 @@
       </picture>
       <div class="projects__name">
         <p>Двуспальная кровать</p>
-        <div class="projects__icon"> <img src="images/cross.svg" width="12px" height="12px"> </div>
       </div>
     </a>
     <a class="projects__item column--6" href="#">
@@ -146,7 +141,6 @@
       </picture>
       <div class="projects__name">
         <p>Декоротивная тумбочка</p>
-        <div class="projects__icon"> <img src="images/cross.svg" width="12px" height="12px"> </div>
       </div>
     </a>
   </section>  
@@ -176,16 +170,16 @@
       <h2 class="feedback__title h2">Хотите заказать проект?</h2>
       <p class="feedback__subtitle">Оставьте заявку, и мы вам перезвоним</p>
       <div class="feedback__text-field">
-        <input class="feedback__input" name="name" id="name" placeholder="" type="text" required name="Text">
-        <label class="feedback__label" for="name">Имя</label>
+        <input name="name" id="name" placeholder="" type="text" required name="Text">
+        <label for="name">Имя</label>
       </div>
       <div class="feedback__text-field">
-        <input class="feedback__input" type="email" id="email" name="email" placeholder="" required> 
-        <label class="feedback__label" for="email">E-mail</label>
+        <input type="email" id="email" name="email" placeholder="" required> 
+        <label for="email">E-mail</label>
       </div>
       <div class="feedback__text-field">
-        <input class="feedback__input" type="tel" name="tel" id="tel" placeholder="" required name="Telephone">
-        <label class="feedback__label" for="tel">Телефон</label>
+        <input type="tel" name="tel" id="tel" placeholder="" required name="Telephone">
+        <label for="tel">Телефон</label>
       </div>
       <button class="feedback__button" type="submit"> Отправить заявку</button>
       <a class="download-link" href="#">

@@ -40,11 +40,13 @@
 }
 
 .header__image:hover {
-    opacity: 0.6;
+    opacity: 0.7;
+    transition: all 0.3s ease-in-out;
 }
 
 .header__image:active {
-    box-shadow: 1px 1px 10px var(--black);
+    opacity: 0.5;
+    transition: all 0s ease-in-out;
 }
 
 .header__list li:not(:last-child) {
@@ -75,5 +77,21 @@
         grid-column: 4 / -1;
         align-self: center;
         justify-self: end;
+    }
+}
+
+@media screen and (max-width:1065px) and (min-width:480px) {
+    .header__number{
+        grid-column: 10 / 13;
+    }
+}
+
+@media screen and (max-width:800px) and (min-width:480px) {
+    .header__number{
+        text-wrap: nowrap;
+    }
+
+    .header__list{
+        grid-column: 2 / 3;
     }
 }

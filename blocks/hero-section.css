@@ -13,6 +13,7 @@
     text-transform: uppercase;
     text-decoration: none;
     color: var(--gray);
+    text-wrap: nowrap;
 }
 
 .hero-section__link:hover {
@@ -46,6 +47,10 @@
     grid-column: 7 / 13;
 }
 
+.text--nowrap {
+    text-wrap: nowrap;
+}
+
 @media screen and (max-width:480px) {
     .hero-section {
         grid-column: 1 / -1;
@@ -60,7 +65,7 @@
         grid-column: 1 / 3;
         grid-row: 3;
         margin-bottom: 24px;
-        text-wrap: nowrap;
+        margin: 0;
     }
 
     .hero-section-header {
@@ -84,11 +89,104 @@
         grid-column: 1 / -1;
     }
     
-    .hero-section__big-image {
+    .hero-section__big img {
         width: 343px;
         height: 261px;
         object-fit: cover;
     }
+    .hero-section{
+        row-gap: 20px;
+    }
 }
 
+@media screen and (max-width:1158px) and (min-width:480px) {
+    .hero-section__link{
+        grid-column: 10 / 13; 
+    }
 
+    .hero-section__small{
+        width: 300px;
+        height: 400px;
+    }
+
+    .hero-section__small img {
+        width: 300px;
+        height: 400px;
+    }
+
+    .hero-section__big{
+        grid-column: 8 / 13;
+        width: 400px;
+        height: 500px
+    }
+
+    .hero-section__big img{
+        width: 400px;
+        height: 500px
+    }
+
+    .hero-section-header{
+        font-size: 50px;
+        grid-column: 1 / 9;
+    }
+
+    .hero-section__link{
+        grid-column: 9 / 13;
+    }
+    .hero-section{
+        row-gap: 20px;
+    }
+}
+
+@media screen and (max-width:800px) and (min-width:480px) {
+    .hero-section__small{
+        display: none;
+    }
+
+    .hero-section__big{
+        grid-column: 1 / -1;
+        align-self: end;
+    }
+
+    .hero-section__big img {
+        width: 700px;
+        grid-row: 4 / 5;
+
+    }
+
+    .hero-section-subtitle{
+        grid-column: 1 / -1;
+    }
+
+    .hero-section__link {
+        grid-row: 3;
+        grid-column: 1 / -1;
+        justify-self: center;
+        margin: 20px;
+        font-size: 25px;
+    }
+    .hero-section{
+        row-gap: 20px;
+    }
+}
+
+@media screen and (max-width:680px) and (min-width:480px) {
+
+    .hero-section__big{
+        grid-column: 1 / -1;
+        align-self: end;
+    }
+
+    .hero-section__big img {
+        width: 550px;
+        height: 400px;
+    }
+
+    .hero-section-header{
+        font-size: 40px;
+        grid-column: 1 / 9;
+    }
+    .hero-section{
+        row-gap: 20px;
+    }
+}
