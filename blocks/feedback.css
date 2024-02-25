@@ -193,6 +193,10 @@
     .feedback__button {
         margin-bottom: 28px;
     }
+
+    .popup__content{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width:1200px) {

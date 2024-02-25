@@ -5,10 +5,8 @@ src: local('Helvetica Now Display Regular'), local('Helvetica-Now-Display-Regula
     url('fonts/HelveticaNowDisplay-Regular.woff') format('woff'),
 }
 
-@media (prefers-reduced-motion: no-preference) {
-    html {
-        scroll-behavior: smooth;
-    }
+html {
+scroll-behavior: smooth;
 }
 
 * {
@@ -30,11 +28,6 @@ src: local('Helvetica Now Display Regular'), local('Helvetica-Now-Display-Regula
     column-gap: 20px;
 }
 
-.second--grid {
-    display: grid;
-    grid-template-columns: repeat(12,1fr);
-    column-gap: 20px;
-}
 
 @media screen and (max-width:480px) {
     .body {
@@ -46,9 +39,4 @@ src: local('Helvetica Now Display Regular'), local('Helvetica-Now-Display-Regula
         display: grid;
         grid-template-columns: repeat(4, 1fr);
     }
-
-    .second--grid {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-}  
 }

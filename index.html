@@ -16,12 +16,15 @@
     <a class="header__image" href="#">
       <img class="header__image-logo" src="images/logo.svg" width="70px" height="74px" alt="Лого">
     </a>
-    <ul class="header__list">
-      <li> <a href="#about" class="header__list-link">О нас</a></li>
-      <li> <a href="#projects" class="header__list-link">Проекты</a></li>
-      <li> <a href="#workflow" class="header__list-link">Материалы</a></li>
-      <li> <a href="#reviews" class="header__list-link">Отзывы</a></li>
-    </ul>
+    <div class="header__background"></div>
+    <div class="header__list">
+      <ul>
+        <li> <a href="#about" class="header__list-link">О нас</a></li>
+        <li> <a href="#projects" class="header__list-link">Проекты</a></li>
+        <li> <a href="#workflow" class="header__list-link">Материалы</a></li>
+        <li> <a href="#reviews" class="header__list-link">Отзывы</a></li>
+      </ul>
+    </div>
     <a class="header__number" href="tel:79999999999" >+7 999 999 99 99</a>
     <div class="header__menu">
       <span></span>
@@ -89,7 +92,7 @@
     </div>   
   </section> 
 
-  <section class="projects second--grid" id="projects">
+  <section class="projects grid" id="projects">
     <h2 class="h2">Проекты</h2>
     <a class="projects__item column--1" href="#">
       <picture>
@@ -146,7 +149,6 @@
       </div>
     </a>
   </section>  
-
   <section class="reviews grid" id="reviews">
     <h2 class="reviews__title h2">Отзывы</h2>
     <div class="reviews__item reviews__item--first">
@@ -184,7 +186,6 @@
         <label for="tel">Телефон</label>
       </div>
       <button class="feedback__button" href="#popup" type="submit"> Отправить заявку</button>
-
       <div id="popup" class='popup'>
         <div class="popup__body">
           <div class="popup__content">
@@ -194,7 +195,6 @@
           </div>
         </div>
       </div>
-
       <a class="download-link" href="#">
         <picture class="mobile-link">
           <source type="image/webp" srcset="images@webp/appstore.webp 1x, images@webp2x/appstore.webp 2x" >
@@ -226,6 +226,6 @@
   </footer>
 
   <script src="header-menu.js">
-</script>
+  </script>
 </body>
 </html>
