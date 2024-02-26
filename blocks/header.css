@@ -70,11 +70,13 @@
     justify-content: flex-end;
     width: 30px;
     height: 18px;
+    background-color: inherit;
 }
 
 .header__menu span{
     position: absolute;
     top: 8px;
+    left:0px; 
     height: 2px;
     width: 100%;
     transform: scale(1);
@@ -86,6 +88,7 @@
     position: absolute;
     height: 2px;
     width: 100%;
+    left: 0px;
     background-color: black;
     transition: all 0.3s ease 0s;
 }
@@ -111,7 +114,7 @@
     display: none;
 }
 
-@media screen and (max-width:480px)
+@media screen and (max-width: 480px)
 {
     .header{
         height: 45px;
@@ -176,6 +179,8 @@
         justify-self: end;
         grid-row: 1;
         position: fixed;
+        height: 18px;
+        border: 0;
     }
 
     .open{
@@ -183,13 +188,13 @@
     }
 }
 
-@media screen and (max-width:1065px) and (min-width:480px) {
+@media screen and (max-width: 1065px) and (min-width: 480px) {
     .header__number{
         grid-column: 10 / 13;
     }
 }
 
-@media screen and (max-width:800px) and (min-width:480px) {
+@media screen and (max-width: 800px) and (min-width: 480px) {
     .header__number{
         text-wrap: nowrap;
     }

@@ -94,7 +94,7 @@
     margin-top: 20px;
 }
 
-@media screen and (max-width:480px){
+@media screen and (max-width: 480px){
     .projects {
         overflow-x: auto;
         margin-top: 48px;
@@ -136,7 +136,7 @@
     }
 }
 
-@media screen and (max-width:1050px) and (min-width:480px){
+@media screen and (max-width: 1050px) and (min-width: 480px){
     .projects__item{
         height: 400px;
     }
@@ -152,7 +152,7 @@
     }
 }
 
-@media screen and (max-width:800px) and (min-width:480px){
+@media screen and (max-width: 800px) and (min-width: 480px){
     .projects{
         margin-top: 48px;
     }
@@ -168,7 +168,7 @@
     }
 }
 
-@media screen and (max-width:660px) and (min-width:480px) {
+@media screen and (max-width: 660px) and (min-width: 480px) {
     .projects {
         overflow-x: auto;
         margin-top: 48px;

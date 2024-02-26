@@ -35,7 +35,7 @@
     grid-column: 1 / 4;
 }
 
-@media screen and (max-width:1050px) {
+@media screen and (max-width: 1050px) {
     .workflow {
         margin-top:48px;
     }

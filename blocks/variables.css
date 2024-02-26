@@ -7,7 +7,7 @@
     --shadow:rgba(33, 37, 41, 0.5);
     --blue-white: #bfe2ff;
     --yellow-gray: #cbc6b2; 
-    --disabled-color:#212529;
+    --disabled-color: rgba(33, 37, 41, 0.5);
 
     --secondary-font: Arial, Helvetica, sans-serif;
 }
