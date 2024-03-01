@@ -129,11 +129,27 @@
         grid-row: 2;
         margin: 0;
     }
+
     .projects__image{
         width: 100%;
         height: 100%; 
         object-fit: cover;
     }
+
+    .projects__item:hover .projects__name,
+    .projects__item:focus .projects__name{
+        transform: translateY(0);
+    }
+
+    .projects__name{
+        height: 66px;
+        transform: translateY(0);
+    }
+
+    .projects__item:hover img {
+        transform: scale(1);
+    }
+
 }
 
 @media screen and (max-width: 1050px) and (min-width: 480px){
