@@ -8,10 +8,6 @@
     display: none;
 }
 
-.popup:target {
-    display: block;
-}
-
 .popup__body {
     max-height: 100%;
     display: grid;
