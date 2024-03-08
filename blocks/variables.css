@@ -6,8 +6,8 @@
     --aliceblue: #f0f8ff;
     --shadow:rgba(33, 37, 41, 0.5);
     --blue-white: #bfe2ff;
-    --yellow-gray: #cbc6b2;
+    --yellow-gray: #cbc6b2; 
+    --disabled-color: rgba(33, 37, 41, 0.5);
 
-    --primary-font: Verdana, sans-serif; 
     --secondary-font: Arial, Helvetica, sans-serif;
 }

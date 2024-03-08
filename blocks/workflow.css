@@ -3,7 +3,7 @@
 }
 
 .workflow__header {
-    grid-column: 1 / 5;
+    grid-column: 1 / 7;
     margin: 0;
 }
 
@@ -35,7 +35,7 @@
     grid-column: 1 / 4;
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width: 1050px) {
     .workflow {
         margin-top:48px;
     }
@@ -62,3 +62,5 @@
         text-wrap: nowrap;
     }
 }
+
+
